@@ -59,8 +59,8 @@ Every Python project should lock its dependent libraries (packages) to specific 
 versioning](https://semver.org/). Using a virtual environment allows you to create an isolated Python environment for
 yor project where you can pin down your dependencies (packages), avoid version conflicts, and create fully
 reproducible builds. To learn more about virtual environments, you can read
-[this article](https://realpython.com/python-virtual-environments-a-primer/){:target="_blank"}. 
-My preferred tool is [Poetry](https://python-poetry.org/docs/){:target="_blank"}.
+[this article](https://realpython.com/python-virtual-environments-a-primer/). 
+My preferred tool is [Poetry](https://python-poetry.org/docs/).
 
 ## Getting Started
 
@@ -123,7 +123,7 @@ The goal is to be able to execute your code by running `poetry run python src/ma
 command in the terminal to check if you have set up the project correctly (including the `.env` file). The output
 should look something like below:
 
-![Output of main.py](img/run-main.png =800x140)
+![Output of main.py](img/run-main.png)
 
 Ideally, you will create all of your code within the main() function, as shown in the `main.py` file. If your
 supporting functions are long, you can keep those in a separate Python file to improve readability.
