@@ -48,7 +48,7 @@ versions of Python.
 > different version of Python, you'll need to install those.
 
 You can use pyenv to install whatever versions of Python you would like (generally the 
-[latest version](https://www.python.org/downloads/){:target="_blank"}).
+[latest version](https://www.python.org/downloads/)).
 You can use pyenv to install any additional version of Python you need by running `pyenv install <version>`. We
 recommend a version each of 3.8, 3.9, 3.10, and 3.11. A good place to start is looking at the projects you might be
 contributing to and downloading the version required for that.
