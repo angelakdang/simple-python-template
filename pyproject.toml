@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "template-python"
+version = "0.1.0"
+description = "Template repository for simple Python projects"
+authors = ["Angela Dang Atkinson <angelakdang@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+polars = "^0.19.13"
+python-decouple = "^3.8"
+numpy = "^1.26.2"
+azure-keyvault-secrets = "^4.7.0"
+azure-identity = "^1.15.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pre-commit = "^3.6.2"
+ruff = "^0.1.8"
+notebook = "^6.5.4"
+
+[tool.ruff]
+# select which rules should be applied when you run pre-commit
+line-length = 120
+target-version = "py310"
+select = [
+    "B",   # flake8-bugbear
+    "E",   # pycodestyle
+    "F",   # pyflakes
+    "I",   # isort
+    "UP",  # pyupgrade
+    "N",   # pep8-naming
+    "C4",  # flake8-comprehensions
+    "C90", # mccabe maximum complexity
+]
+extend-exclude = ["__pycache__"]
+ignore = ["E402"]
+
+# check the code complexity or layers of nested "if/for loop"
+[tool.ruff.mccabe]
+max-complexity = 8

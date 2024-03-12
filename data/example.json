@@ -1,0 +1,5 @@
+{
+  "what": "This is a subfolder where you can store simple data.",
+  "why": "Keeping data separate from code allows code to be more portable and easier to read.",
+  "example": "These could be CSV, Excel, SQLite, etc. files"
+}
