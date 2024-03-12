@@ -1,13 +1,13 @@
 # Introduction
 
-This the Python project template I wish I had when I was learning how to code in Python as someone in an adjacent STEM
-discipline. As an engineer, I knew what I wanted my code to do, but I didn't know what packages I was installing,
+This is the Python project template I wish I had when I was learning how to code in Python. 
+As an engineer, I knew what I wanted my code to do, but I didn't know what packages I was installing,
 where they were being installed, and things got messy quickly.
 
-This is a template for creating a robust Python project where your code is version controlled, linted
-(style checked), and developed within a virtual environment so that it is reproducible, no matter who is running your
-code or where your code is running. These are the software engineering principles that I found useful early on in my
-Python developer journey.
+This is a template for creating a robust Python project using some basic software engineering principles, where 
+the code is version controlled, linted (style checked), and developed within a virtual environment so that it is 
+reproducible, no matter who is running your code or where your code is running. These are the principles that I found 
+would have found useful early on in my Python developer journey.
 
 ## About the tools
 
