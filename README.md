@@ -9,7 +9,7 @@ the code is version controlled, linted (style checked), and developed within a v
 reproducible, no matter who is running your code or where your code is running. These are the principles that I found 
 would have found useful early on in my Python developer journey.
 
-## About the tools
+## Prerequisites
 
 ### Git
 
@@ -29,6 +29,8 @@ creates a timeline of your progress and makes it easy to track who made which ch
 Additionally, Git enables collaboration beyond the boundaries of your own group. You can share your repository with
 others, allowing them to view your work, make their own changes, and suggest improvements. Git keeps everything
 organized and ensures that changes are properly tracked and attributed.
+
+[Download git from here](https://git-scm.com/)
 
 ### pyenv
 
@@ -53,6 +55,8 @@ You can use pyenv to install any additional version of Python you need by runnin
 recommend a version each of 3.8, 3.9, 3.10, and 3.11. A good place to start is looking at the projects you might be
 contributing to and downloading the version required for that.
 
+[Download pyenv from here](https://github.com/pyenv/pyenv?tab=readme-ov-file#installation)
+
 ### Poetry
 
 Every Python project should lock its dependent libraries (packages) to specific versions and follow [semantic
@@ -61,6 +65,8 @@ yor project where you can pin down your dependencies (packages), avoid version c
 reproducible builds. To learn more about virtual environments, you can read
 [this article](https://realpython.com/python-virtual-environments-a-primer/). 
 My preferred tool is [Poetry](https://python-poetry.org/docs/).
+
+[Install Poetry from here](https://python-poetry.org/docs/#installation)
 
 ## Getting Started
 
